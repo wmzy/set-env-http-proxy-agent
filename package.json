@@ -1,0 +1,24 @@
+{
+  "name": "set-env-http-proxy-agent",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Set the HTTP_PROXY and HTTPS_PROXY environment variables to use the node fetch API",
+  "dependencies": {
+    "undici": "^7.3.0"
+  }
+}
