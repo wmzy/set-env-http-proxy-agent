@@ -23,6 +23,7 @@ pnpm add -g set-env-http-proxy-agent
 ```sh
 # export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 no_proxy=localhost,127.0.0.*
 
+# replace `npm` with `pnpm` as necessary
 export NODE_OPTIONS="--import $(npm root -g)/set-env-http-proxy-agent/index.js"
 ```
 
